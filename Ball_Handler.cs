@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 /**
  * ! This is ONLY for the Ball_Handler.cs
  * ? what should I do next
- * * I have implented the respawning of the ball and fix the bug of not hooked to the pivot
+ * * To use the Cinemachine u just need to install, from GameObject use Target Group Camera
  * previously I need to put the pivot to the Prefabs
  * TODO need to create the zoom with the Cinemachine for dynamic zoom. 
 */
