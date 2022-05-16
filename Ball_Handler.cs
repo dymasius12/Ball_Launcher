@@ -33,12 +33,18 @@ public class Ball_Handler : MonoBehaviour
         SpawnNewBall();
     }
 
-    void OnEnable(){
+    /**
+     * * added this part
+    */
+    void OnEnable(){ 
 
         EnhancedTouchSupport.Enable();
 
     }
 
+    /**
+     * * added this part
+    */
     void OnDisable(){
 
         EnhancedTouchSupport.Disable();
@@ -68,6 +74,10 @@ public class Ball_Handler : MonoBehaviour
 
         Vector2 touchPositions = new Vector2();
 
+        
+    /**
+     * *Bassically getting all the input and then divide to get the center
+    */
         foreach (Touch touch in Touch.activeTouches)
         {
             touchPositions += touch.screenPosition;
