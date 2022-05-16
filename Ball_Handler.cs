@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/**
+ * ? what should I do next
+ * * I have implented the respawning of the ball and fix the bug of not hooked to the pivot
+ * previously I need to put the pivot to the Prefabs
+ * TODO need to create the zoom with the Cinemachine for dynamic zoom. 
+*/
+
 public class Ball_Handler : MonoBehaviour
 {
     [SerializeField] private GameObject ballPrefab;
